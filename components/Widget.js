@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+/* eslint-disable linebreak-style */
+import styled from 'styled-components';
 
 const Widget = styled.div`
   margin-top: 24px;
@@ -18,7 +19,7 @@ const Widget = styled.div`
     font-weight: 400;
     line-height: 1;
   }
-`
+`;
 
 Widget.Header = styled.header`
   display: flex;
@@ -30,7 +31,7 @@ Widget.Header = styled.header`
   * {
     margin: 0;
   }
-`
+`;
 
 Widget.Content = styled.div`
   padding: 24px 32px 32px 32px;
@@ -44,7 +45,7 @@ Widget.Content = styled.div`
     list-style: none;
     padding: 0;
   }
-`
+`;
 
 Widget.Topic = styled.a`
   outline: 0;
@@ -62,6 +63,6 @@ Widget.Topic = styled.a`
   &:focus {
     opacity: .5;
   }
-`
+`;
 
-export default Widget
+export default Widget;

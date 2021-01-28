@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
 import styled from 'styled-components';
 
@@ -22,6 +23,8 @@ const SVGWrapper = styled.svg`
     40%,80%{transform:rotate(10deg)}
   }
   @media (max-width:500px){
+    margin-right: 0;
+    margin-top: 0;
     &:hover .octo-arm{
       animation:none
     }

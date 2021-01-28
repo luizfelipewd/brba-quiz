@@ -1,10 +1,11 @@
 {
     "bg": "https://wallpapercave.com/wp/NW1DP51.jpg",
+    "logo": "https://occ-0-2705-448.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABfusJqVG0DEIi4tUuFCAUln9yk__7-MF8wCT_2RBrVwU034oY5-u3yfUgttlaKIYsCqgBtGYy7XXGbqOAjQZ30dvBT2CluUgpTEL.png?r=295",
     "title": "Quiz CSS da Alura",
     "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
+        "image": "https://media.giphy.com/media/R3S6MfUoKvBVS/giphy.gif",
         "title": "Como fazer um seletor por id via CSS?",
         "description": "Essa é pra aquecer",
         "answer": 2,
@@ -16,7 +17,7 @@
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
+        "image": "https://media.giphy.com/media/600QaqOkDQnWo5Mau0/giphy.gif",
         "title": "Como fazer um background gradiente com css?",
         "description": "Faz tempo em haha",
         "answer": 0,
@@ -35,8 +36,9 @@
         "secondary": "#f1c40f",
         "mainBg": "#2f3542",
         "contrastText": "#FFFFFF",
-        "wrong": "#FF5722",
-        "success": "#4CAF50"
+        "wrong": "#e74c3c",
+        "success": "#2ecc71",
+        "input": "#1e272e"
       },
       "borderRadius": "4px"
     }
