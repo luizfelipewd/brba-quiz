@@ -36,10 +36,10 @@ export default function Home() {
           animate="show"
         >
           <Widget.Header>
-            <h1>Breaking Bad</h1>
+            <h1>{db.title}</h1>
           </Widget.Header>
           <Widget.Content>
-            <p>Teste os seus conhecimentos sobre Breaking Bad e vamos ver se você realmente é o perigo.</p>
+            <p>{db.description}</p>
 
             <form onSubmit={(event) => {
               event.preventDefault();
